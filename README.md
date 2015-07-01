@@ -1,7 +1,7 @@
 # Intent-Tester
 This is a test application for integrating Unified Remote with a 3rd party application that wants to be able to build and send action URIs. Action URIs can be used to open parts of the apps, open a specific remote control, or even send specific actions (like volume up/down or a specific key stroke). 
 
-``URInterop.java`` is the main implementation.
+[``URInterop.java``](https://github.com/unifiedremote/Intent-Tester/blob/master/app/src/main/java/com/unified/intenttester/URInterop.java) is the main implementation.
 
 ## Launching the Action Builder
 A 3rd party app can easily integrate the Action Builder by simply starting the activity with the correct action string. The following code also verifies that Unified Remote is indeed installed on the user's device.
