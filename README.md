@@ -7,6 +7,7 @@ This is a test application for integrating Unified Remote with a 3rd party appli
 A 3rd party app can easily integrate the Action Builder by simply starting the activity with the correct action string. The following code also verifies that Unified Remote is indeed installed on the user's device.
 
 ````java
+public static final String ACTION_URI_SEND = "com.unifiedremote.ACTION_URI_SEND";
 public static final String ACTION_URI_CONFIGURE = "com.unifiedremote.ACTION_URI_CONFIGURE";
 public static final String EXTRA_URI = "com.unifiedremote.EXTRA_URI";
     
