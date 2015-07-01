@@ -46,5 +46,8 @@ To send an action URI, simply create a broadcast with the correct action string.
 context.sendBroadcast(new Intent(ACTION_URI_SEND).putExtra(EXTRA_URI, uri));
 ````
 
+## Creating URIs in the app
+![Image of Yaktocat](https://raw.githubusercontent.com/unifiedremote/Intent-Tester/master/create_uri.png)
+
 ## Action URI Syntax
 The URI action syntax is documented [here](https://github.com/unifiedremote/Docs/blob/master/concepts/uri.md).
