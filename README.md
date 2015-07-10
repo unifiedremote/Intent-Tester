@@ -3,6 +3,8 @@ This is a test application for integrating Unified Remote with a 3rd party appli
 
 [``URInterop.java``](https://github.com/unifiedremote/Intent-Tester/blob/master/app/src/main/java/com/unified/intenttester/URInterop.java) is the main implementation.
 
+![Interop](https://raw.githubusercontent.com/unifiedremote/Intent-Tester/master/interop.png)
+
 ## Launching the Action Builder
 A 3rd party app can easily integrate the Action Builder by simply starting the activity with the correct action string. The following code also verifies that Unified Remote is indeed installed on the user's device.
 
@@ -47,7 +49,7 @@ context.sendBroadcast(new Intent(ACTION_URI_SEND).putExtra(EXTRA_URI, uri));
 ````
 
 ## Creating URIs in the app
-![Image of Yaktocat](https://raw.githubusercontent.com/unifiedremote/Intent-Tester/master/create_uri.png)
+![Create URI](https://raw.githubusercontent.com/unifiedremote/Intent-Tester/master/create_uri.png)
 
 ## Action URI Syntax
 The URI action syntax is documented [here](https://github.com/unifiedremote/Docs/blob/master/concepts/uri.md).
